@@ -1,0 +1,59 @@
+/* Todo.css */
+.todo {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.field {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.field input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.field button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.textArea {
+  list-style: none;
+  padding: 0;
+  max-height: 300px; /* Set a max height for the list */
+  overflow-y: auto; /* Add a vertical scrollbar when the content exceeds the height */
+}
+
+.newText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newText button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
